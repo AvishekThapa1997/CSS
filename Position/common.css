@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* .background {
+  background: url("./assets/images/plans-background.jpg");
+} */
+/*main - nav*/
+.main-header {
+  background: #2ddf5c;
+  padding: 16px 8px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+.main-header__logo {
+  width: 8%;
+}
+.main-header__logo > a {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  height: 32px;
+  display: inline-block;
+}
+.main-header__logo img {
+  height: 100%;
+}
+.main-nav {
+  width: 90%;
+  text-align: end;
+}
+.main-nav,
+.main-header__logo,
+.main-nav__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+.main-nav__items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.main-nav__item:not(:first-child) {
+  margin-left: 8px;
+}
+.main-nav__item a {
+  text-decoration: none;
+  color: #0e4f1f;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.main-nav__item a:hover,
+.main-nav__item a:active,
+.main-nav__item a.active {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.main-nav__item--cta a {
+  color: white;
+  background: #ff1b68;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  color: #ff1b68;
+  border: none;
+  background: white;
+}
+/*section*/
+.section-title {
+  color: #2ddf5c;
+  text-align: center;
+  margin-bottom: 24px;
+}
+/*elements*/
+.button {
+  background: #0e4f1f;
+  color: white;
+  border: none;
+  font: inherit;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #0e4f1f;
+}
+.button:hover,
+.button:active {
+  background: white;
+  color: #0e4f1f;
+}
+/*Footer*/
+.main-footer {
+  background: black;
+  padding: 32px;
+}
+.main-footer__nav__links {
+  text-align: center;
+}
+.main-footer__nav__link {
+  display: inline-block;
+  margin: 0 16px;
+}
+.main-footer__nav__link a {
+  color: white;
+  text-decoration: none;
+}
+.main-footer__nav__link a:hover,
+.main-footer__nav__link a:active {
+  color: #ccc;
+}
